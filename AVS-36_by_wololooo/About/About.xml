@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>AVS-36 by Wololooo</name>
+  <author>wololooo</author>
+  <packageId>wololooo.AVSThirtySix</packageId>
+  
+  <description>
+The AVS-36 is the echo of an idea too far ahead for its time — a prototype born in the uneasy years before Earth’s final great war. Ambitious, fragile, and flawed, it was the Soviet Union’s first real step toward giving the individual soldier controllable automatic firepower in a world still ruled by bolt-actions and heavy machine guns.
+
+Developed by Sergei Simonov and chambered in the punishing 7.62×54mmR cartridge, the AVS-36 was a select-fire rifle that tried to merge old doctrines with new ideas. Too powerful for its frame, too complex for mass production, and too unreliable for harsh battlefields, it saw only limited use before being cast aside for sturdier designs. It was a stepping stone — never meant to last, but never truly forgotten.
+
+Centuries after Earth’s fall, a half-corrupted schematic surfaced in the databanks of a dead satellite orbiting a snowbound Rimworld. A weaponsmith, desperate or perhaps simply curious, rebuilt it. The AVS-36 fired again — brutal, rare, and strangely elegant in its imperfection.
+
+It is not the most efficient tool. It kicks like a mule and jams when mistreated. But in the right hands, it delivers a burst of firepower from a forgotten age — a reminder that every breakthrough begins with a failed attempt.
+
+A prototype reborn. An obsolete dream, dragged back to life by necessity. Unstable. Uncommon. Unmistakably human.
+
+~wololooo
+	</description>
+	
+  <supportedVersions>
+	<li>1.6</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>wololooo.sovietResearchTab</packageId>
+      <displayName>Soviet Rifle Research Tab</displayName>
+      <downloadUrl>https://github.com/wo1olooo/Soviet-Rifle-Research-Tab-by-Wololooo</downloadUrl>
+    </li>
+	<li>
+      <packageId>wololooo.FEDOROVAVTOMAT</packageId>
+      <displayName>Federov Avtomat</displayName>
+      <downloadUrl>https://github.com/wo1olooo/Federov-Avtomat-Rifle-Mod</downloadUrl>
+    </li>
+	
+  </modDependencies>
+  <url>https://github.com/wo1olooo/AVS-36-Rifle-Mod/tree/main</url>
+</ModMetaData>

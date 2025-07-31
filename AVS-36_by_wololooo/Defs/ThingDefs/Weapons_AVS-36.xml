@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<Defs>
+
+	
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_AVS-36_wololooo</defName>
+    <label>AVS-36</label>
+	
+    <description>The AVS-36 is a rare and unstable artifact from the opening years of Old Earth’s Second World War — a weapon forged in haste, not mastery. It represents the Soviet Union’s earliest leap toward automatic infantry arms, years before the world was ready to follow.
+
+Developed by engineer Sergei Simonov, the AVS-36 (Avtomaticheskaya Vintovka Simonova) was one of the first select-fire rifles adopted by a major power. Chambered in the punishing 7.62×54mmR cartridge, it was meant to give infantry the flexibility of automatic fire in a package smaller than a machine gun. But the idea outpaced the era’s engineering.
+
+Its recoil was fierce. Its internals wore fast. Accuracy plummeted in full-auto. Frontline troops were often told to avoid using its automatic mode altogether. It was a weapon of innovation — but also of compromise.
+
+As war intensified, the AVS-36 was quickly replaced by sturdier rifles. Production halted. Its name faded into the machinery of history.
+
+Centuries later, long after Earth was silenced by fire and decay, a fragment of AVS-36 schematics was recovered from the black box of a sunken orbital wreck. Corrupted, barely readable, and etched in obsolete code, it was restored by a determined weaponsmith who saw not failure, but potential.
+
+Now, across the fractured Rim, the AVS-36 breathes again. Rare, temperamental, and fiercely powerful, it offers ancient firepower in a modern wasteland — a reminder that even flawed weapons can leave deep scars.
+
+An early step into the age of automatics. Imperfect. Ambitious. Alive once more.
+
+~wololooo</description>
+
+    <graphicData>
+      <texPath>Things/Equipment/wololooo_AVS-36</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.15</drawSize>
+    </graphicData>
+
+    <soundInteract>Interact_Rifle</soundInteract>
+
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>Research_AVS-36_by_wololooo</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <displayPriority>442</displayPriority>
+    </recipeMaker>
+
+    <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+	
+
+	<!-- The rifle's stats: -->
+    <statBases>
+      <WorkToMake>36000</WorkToMake>
+      <Mass>4.3</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.63</AccuracyShort>
+      <AccuracyMedium>0.56</AccuracyMedium>
+      <AccuracyLong>0.42</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+	  <MarketValue>440</MarketValue>
+	  <MaxHitPoints>40</MaxHitPoints>
+    </statBases>
+
+	<costList>
+	  <Steel>78</Steel>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+	  <WoodLog>22</WoodLog>
+	</costList>
+	<smeltable>true</smeltable>
+	<smeltProducts>
+		<Steel>45</Steel>
+	</smeltProducts>
+	
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AVS-36_762by54mmR</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>27</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>wololooo_avs-36_firing_sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>15</muzzleFlashScale>
+      </li>
+    </verbs>
+	
+	
+    <weaponTags>
+      <li>AVS-36</li>
+	  <li>wololoooSovietPack</li>
+    </weaponTags>
+	
+	
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	
+
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AVS-36_762by54mmR</defName>
+    <label>7,62×54mmR AVS-36 Bullet</label>
+
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>71</speed> 
+	  <stoppingPower>1.5</stoppingPower>
+	  <armorPenetrationBase>0.38</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+  
+</Defs>

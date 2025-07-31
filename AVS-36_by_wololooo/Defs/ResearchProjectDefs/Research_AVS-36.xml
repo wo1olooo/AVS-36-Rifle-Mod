@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef>
+  
+	<!-- Naming the rifle's research etc. -->
+    <defName>Research_AVS-36_by_wololooo</defName>
+    <label>AVS36</label>
+	
+	<description>Recovered from the corrupted memory of a derelict pre-Fall vessel, the AVS-36 is one of Old Earth’s first automatic infantry rifles. Designed in the 1930s by Soviet engineer Sergei Simonov, it was chambered in the punishing 7.62×54mmR and featured early select-fire capability — bold, but unreliable.
+
+Heavy recoil, fragile internals, and constant jamming doomed it to obscurity. Few were made. Fewer survived.
+
+Centuries later, its blueprints were salvaged and rebuilt on the Rim. Flawed, powerful, and unmistakably human — the AVS-36 walks again.
+
+~wololooo</description>
+
+	<tab>SovietGuns_by_wololooo</tab>
+	
+	<!-- Cost and tech level. -->
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+
+	<!-- The researche(s) should finished before the rifle's research. -->
+	
+	<prerequisites>
+      <li>Gunsmithing</li>
+	  <li>PrecisionRifling</li>
+	  <li>Soviet_Research_Program</li>
+	  <li>Research_FedorovAvtomat_by_wololooo</li>
+    </prerequisites>
+	
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	
+	<!-- The place of rifle's on the research menu. -->
+    <researchViewX>3</researchViewX>
+    <researchViewY>1.5</researchViewY>
+	
+
+  </ResearchProjectDef>
+
+</Defs>
