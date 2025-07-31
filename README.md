@@ -50,10 +50,13 @@ If you enjoy the mod, consider rating and favoriting — feedback and suggestion
 ## 📦 Load Order
 
 ...
-core
+
+*core
+
 ...
-Soviet Rifle Research Tab by Wololooo
-Fedorov Avtomat by Wololooo
+*Soviet Rifle Research Tab by Wololooo
+
+*Fedorov Avtomat by Wololooo
 
 **AVS-36 by Wololooo
 
